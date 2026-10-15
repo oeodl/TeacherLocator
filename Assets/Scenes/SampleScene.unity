@@ -170,7 +170,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -6.1530538, y: -2.8782597}
+  m_Offset: {x: -6.1530538, y: -2.9979572}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -180,7 +180,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.6958046, y: 0.0001}
+  m_Size: {x: 0.6958046, y: 0.23949504}
   m_EdgeRadius: 0
 --- !u!4 &265989872
 Transform:
@@ -331,7 +331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -75, y: 118}
+  m_AnchoredPosition: {x: -100, y: 254}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &358926657
@@ -443,8 +443,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &371019873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -537,8 +537,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &471188684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -630,9 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41884ade2f6397343a27b63fc6032da7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
-  lehrerNamen: 'Maier
-
-    Bromm'
+  lehrerNamen: 
   infoSchild: {fileID: 1368944593}
   infoText: {fileID: 293492255}
 --- !u!61 &494354302
@@ -730,7 +728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000022888, y: 260}
+  m_AnchoredPosition: {x: -0.000022888, y: 427}
   m_SizeDelta: {x: 350, y: 90.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496906000
@@ -1085,8 +1083,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &628795137
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1179,8 +1177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &651515690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1463,7 +1461,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 7.966626, y: -1.4241898}
+  m_Offset: {x: 8.06456, y: -1.4241898}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1473,7 +1471,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001001358, y: 3.0187545}
+  m_Size: {x: 0.19597149, y: 3.0187545}
   m_EdgeRadius: 0
 --- !u!4 &770886148
 Transform:
@@ -1541,7 +1539,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.7266397, y: 1.7836943}
+  m_Offset: {x: -4.5416512, y: 1.7836943}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1551,7 +1549,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001001358, y: 3.4059134}
+  m_Size: {x: 0.37007618, y: 3.4059134}
   m_EdgeRadius: 0
 --- !u!4 &788378696
 Transform:
@@ -1563,6 +1561,50 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.65811, y: 1.90008, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &919279557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 919279559}
+  - component: {fileID: 919279558}
+  m_Layer: 0
+  m_Name: LehrerDaten
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &919279558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919279557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a252f2c85253fd641a1239b7a00706d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LehrerDatenLader
+--- !u!4 &919279559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919279557}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1619,7 +1661,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.318464, y: -0.8019905}
+  m_Offset: {x: -4.318464, y: -0.7584636}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1629,7 +1671,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.3486605, y: 0.000100016594}
+  m_Size: {x: 5.3486605, y: 0.08715391}
   m_EdgeRadius: 0
 --- !u!4 &929434607
 Transform:
@@ -1697,7 +1739,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -5.5883675, y: -4.03751}
+  m_Offset: {x: -5.490433, y: -4.03751}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1707,7 +1749,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001001358, y: 2.2720904}
+  m_Size: {x: 0.19596958, y: 2.272091}
   m_EdgeRadius: 0
 --- !u!4 &980776526
 Transform:
@@ -1854,7 +1896,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -5.892564, y: 1.8251755}
+  m_Offset: {x: -6.0666695, y: 1.8251755}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1864,7 +1906,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001001358, y: 3.433568}
+  m_Size: {x: 0.3483119, y: 3.433568}
   m_EdgeRadius: 0
 --- !u!4 &1068200683
 Transform:
@@ -1912,8 +1954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1103212919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2026,7 +2068,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -6.4733014, y: -1.3550537}
+  m_Offset: {x: -6.5712357, y: -1.3550537}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2036,7 +2078,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001, y: 3.0464087}
+  m_Size: {x: 0.1959691, y: 3.0464087}
   m_EdgeRadius: 0
 --- !u!4 &1205538466
 Transform:
@@ -2104,7 +2146,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 6.639913, y: -1.7843618}
+  m_Offset: {x: 6.639913, y: -1.9040596}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2114,7 +2156,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 13.504361, y: 0.0001}
+  m_Size: {x: 13.504361, y: 0.23949575}
   m_EdgeRadius: 0
 --- !u!4 &1215807178
 Transform:
@@ -2226,7 +2268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1368944594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2245,8 +2287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 700}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 500, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368944595
 MonoBehaviour:
@@ -2317,8 +2359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1380139350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2580,8 +2622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1618407617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2674,8 +2716,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1623387204
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2768,8 +2810,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1751377323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2964,8 +3006,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1874618165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3058,8 +3100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &1966089795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3230,8 +3272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorInfo
   lehrerNamen: 
-  infoSchild: {fileID: 0}
-  infoText: {fileID: 0}
+  infoSchild: {fileID: 1368944593}
+  infoText: {fileID: 293492255}
 --- !u!61 &2056776655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3344,7 +3386,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -5.2012095, y: -4.3831863}
+  m_Offset: {x: -5.2447367, y: -4.3831863}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3354,7 +3396,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.0001, y: 1.4701214}
+  m_Size: {x: 0.08715391, y: 1.4701214}
   m_EdgeRadius: 0
 --- !u!4 &2134095414
 Transform:
@@ -3407,3 +3449,4 @@ SceneRoots:
   - {fileID: 651515691}
   - {fileID: 1874618166}
   - {fileID: 1011614944}
+  - {fileID: 919279559}
